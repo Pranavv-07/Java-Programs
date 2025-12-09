@@ -1,0 +1,54 @@
+    Types of Variables :
+    -------------------
+    1. Local variable : a variable which is declared inside a method or constructor or a block o fcode
+                ex: 
+                    void display()
+                    {
+                        int x=10;
+                        System.out.println(x);
+                    }
+    2. Class variable or Static variable : A variable which is declared insidethe class but outside the method with the keywor d called static 
+                ex: 
+                    Class Main{
+                        static int x; // static variable
+                        static float f;
+                    static void display(){
+                        System.out.println(x);
+                    }
+                    }
+                    class Demo
+                    {
+                        public static void main(String args[])
+                        {
+                            System.out.println(Main.x);
+                        }
+                    }
+
+    3. Istance variable : A variable which is declared insidea class and outside a method
+                ex: 
+                    class Main{
+                        int x;
+                        char c;
+                        void show()
+                        {
+                            System.out.println(x);
+                        }
+
+                    }
+                    class Demo{
+                        public static void main(String args[])
+                        {
+                            Main obj=new Main();
+                            Main obj2=new Main();
+                            obj.x;
+                            obj2.x
+                        }
+
+                    }
+================================================================================================
+
+
+Strings : 
+1. A collection of charecters enclosed with a double quotes 
+2. it is belongs to java.lang package
+3. In java strings are immutable
